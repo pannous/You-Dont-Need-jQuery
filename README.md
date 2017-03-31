@@ -69,6 +69,10 @@ In place of common selectors like class, id or attribute we can use `document.qu
   ```js
   // jQuery
   $('#id');
+  
+  // id is available globally : 
+  // e.g. <input id=test/>
+  test.value 
 
   // Native
   document.querySelector('#id');
